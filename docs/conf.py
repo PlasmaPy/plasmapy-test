@@ -59,6 +59,7 @@ intersphinx_mapping = {
     "numpy": ("https://numpy.org/doc/stable/", None),
     "astropy": ("https://docs.astropy.org/en/stable/", None),
     "pytest": ("https://docs.pytest.org/en/stable/", None),
+    "plasmapy": ("https://docs.plasmapy.org/en/stable/", None),
 }
 
 autoclass_content = "both"
