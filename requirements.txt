@@ -1,6 +1,8 @@
-astropy>=4.0
-setuptools>=41.2
-setuptools_scm
-wheel>=0.29.0
-numpy>=1.17.0
-pytest>=5.1
+# all dependencies required to build, run, test, and document plasmapy_test_helpers
+# * look to the specific requirements/*.txt for specific needs
+# * this will mimic `pip install plasmapy_test_helpers[developer]` (excluding plasmapy_test_helpers)
+-r requirements/build.txt
+-r requirements/install.txt
+-r requirements/tests.txt
+-r requirements/docs.txt
+-r requirements/extras.txt
