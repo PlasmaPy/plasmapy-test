@@ -127,6 +127,10 @@ todo_include_todos = False
 
 default_role = "obj"
 
+rst_epilog = ""
+with open("common_links.txt", "r") as cl:
+    rst_epilog += cl.read()
+
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
