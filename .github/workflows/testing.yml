@@ -28,11 +28,6 @@ jobs:
             python: 3.7
             toxenv: py37
 
-          - name: Python 3.7 with Astropy dev
-            os: ubuntu-latest
-            python: 3.7
-            toxenv: py37-astropydev
-
           - name: Python 3.8 with code coverage
             os: ubuntu-latest
             python: 3.8
@@ -43,15 +38,10 @@ jobs:
             python: 3.8
             toxenv: py38-slow-cov
 
-          - name: Python 3.8 with Numpy dev
+          - name: Python 3.8 with pytest dev
             os: ubuntu-latest
             python: 3.8
-            toxenv: py38-numpydev
-
-          - name: Python 3.9 with Xarray dev
-            os: ubuntu-latest
-            python: 3.9
-            toxenv: py39-numpydev
+            toxenv: py38-pytestdev
 
           - name: Python 3.9
             os: ubuntu-latest
