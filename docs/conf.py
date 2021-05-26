@@ -51,8 +51,6 @@ extensions = [
     "nbsphinx",
     "sphinx_copybutton",
     "sphinx_gallery.load_style",
-    "IPython.sphinxext.ipython_console_highlighting",
-    "sphinx_changelog",
 #    "plasmapy_sphinx",
 ]
 
@@ -154,7 +152,7 @@ html_theme = "sphinx_rtd_theme"
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["_static"]
+#html_static_path = ["_static"]
 
 # A list of prefixes that are ignored for sorting the Python module
 # index (e.g., if this is set to ['foo.'], then foo.bar is shown under
@@ -221,7 +219,7 @@ texinfo_documents = [
     )
 ]
 
-html_favicon = "./_static/icon.ico"
+#html_favicon = "./_static/icon.ico"
 
 
 # -- NBSphinx options
