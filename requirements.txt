@@ -1,0 +1,6 @@
+astropy>=4.0
+setuptools>=41.2
+setuptools_scm
+wheel>=0.29.0
+numpy>=1.17.0
+pytest>=5.1
