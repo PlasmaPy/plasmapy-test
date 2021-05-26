@@ -1,0 +1,15 @@
+include README.md
+include LICENSE.md
+include setup.cfg
+include setup.py
+include pyproject.toml
+
+recursive-include plasmapy_test_helpers *.py *.pyx *.c *.pxd
+recursive-include docs *
+recursive-include licenses *
+
+prune build
+prune docs/_build
+prune docs/api
+
+global-exclude *.pyc *.o
